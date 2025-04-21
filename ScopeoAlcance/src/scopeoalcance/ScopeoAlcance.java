@@ -6,7 +6,8 @@ public class ScopeoAlcance {
 		// TODO Auto-generated method stub
 		//Escope
 		
-		int promedio = 10;
+		int promedio = 5;
+		String mensajeTres;
 		
 		if (promedio > 7)
 		{
@@ -21,8 +22,11 @@ public class ScopeoAlcance {
 			{
 				String mensajeDos = "Felicidades, tu promedio  es muy bueno: " + promedio;
 				System.out.println(mensajeDos);
-			}
+			}		
+		}else if ( promedio < 7)
+		{
+		     mensajeTres = "Lo siento, tu promedio  es muy bajo: " + promedio;
+		     System.out.println(mensajeTres);
 		}
 	}
-
 }
