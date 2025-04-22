@@ -5,7 +5,7 @@ public class Switch2 {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		// Switch
-		char calificacion = 'D';
+		char calificacion = 'M';
 		
 		switch(calificacion)
 		{
@@ -21,6 +21,11 @@ public class Switch2 {
 		case 'D':
 			System.out.println("Aprobatorio");
 			break;
+		case 'F':
+			System.out.println("Puedes mejorar");
+			break;
+		default:
+			System.out.println("Calificación no válida");
 		}
 
 	}
