@@ -79,6 +79,5 @@ public class EjerciciosArreglosJava
  * Muestra el arreglo ordenado.
  * Calcula y muestra el promedio.
  * Muestra la suma del primer y último número del arreglo.
- * Verifica si hay al menos un 100 y muestra "Existe cien" si lo hay.
- * ¿Te gustaría que lo adaptemos para usar números entre 1 y 100 en vez de 0 a 99?*/
+ * Verifica si hay al menos un 100 y muestra "Existe cien" si lo hay.*/
 		
